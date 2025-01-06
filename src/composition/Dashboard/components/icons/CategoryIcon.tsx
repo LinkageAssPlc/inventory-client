@@ -6,105 +6,93 @@ const CategoryIcon = ({ active, label }: IconProp) => {
     <>
       {active ? (
         <svg
-          width="30px"
-          height="30px"
-          viewBox="0 0 24 24"
+          width="18"
+          height="18"
+          viewBox="0 0 18 18"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          stroke=""
         >
-          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-          <g
-            id="SVGRepo_tracerCarrier"
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M1.11719 4.1755C1.11719 1.89468 1.14161 1.13465 4.15804 1.13465C7.17447 1.13465 7.19889 1.89468 7.19889 4.1755C7.19889 6.45633 7.20851 7.21635 4.15804 7.21635C1.10757 7.21635 1.11719 6.45633 1.11719 4.1755Z"
+            stroke="#024F83"
+            stroke-width="1.30322"
             stroke-linecap="round"
             stroke-linejoin="round"
-          ></g>
-          <g id="SVGRepo_iconCarrier">
-            {" "}
-            <path
-              d="M17 10H19C21 10 22 9 22 7V5C22 3 21 2 19 2H17C15 2 14 3 14 5V7C14 9 15 10 17 10Z"
-              stroke="#024F83"
-              stroke-width="1.5"
-              stroke-miterlimit="10"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            ></path>{" "}
-            <path
-              d="M5 22H7C9 22 10 21 10 19V17C10 15 9 14 7 14H5C3 14 2 15 2 17V19C2 21 3 22 5 22Z"
-              stroke="#024F83"
-              stroke-width="1.5"
-              stroke-miterlimit="10"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            ></path>{" "}
-            <path
-              d="M6 10C8.20914 10 10 8.20914 10 6C10 3.79086 8.20914 2 6 2C3.79086 2 2 3.79086 2 6C2 8.20914 3.79086 10 6 10Z"
-              stroke="#024F83"
-              stroke-width="1.5"
-              stroke-miterlimit="10"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            ></path>{" "}
-            <path
-              d="M18 22C20.2091 22 22 20.2091 22 18C22 15.7909 20.2091 14 18 14C15.7909 14 14 15.7909 14 18C14 20.2091 15.7909 22 18 22Z"
-              stroke="#024F83"
-              stroke-width="1.5"
-              stroke-miterlimit="10"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            ></path>{" "}
-          </g>
+          />
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M10.6743 4.1755C10.6743 1.89468 10.6987 1.13465 13.7152 1.13465C16.7316 1.13465 16.756 1.89468 16.756 4.1755C16.756 6.45633 16.7656 7.21635 13.7152 7.21635C10.6647 7.21635 10.6743 6.45633 10.6743 4.1755Z"
+            stroke="#024F83"
+            stroke-width="1.30322"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M1.11719 13.7325C1.11719 11.4516 1.14161 10.6916 4.15804 10.6916C7.17447 10.6916 7.19889 11.4516 7.19889 13.7325C7.19889 16.0133 7.20851 16.7733 4.15804 16.7733C1.10757 16.7733 1.11719 16.0133 1.11719 13.7325Z"
+            stroke="#024F83"
+            stroke-width="1.30322"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M10.6743 13.7325C10.6743 11.4516 10.6987 10.6916 13.7152 10.6916C16.7316 10.6916 16.756 11.4516 16.756 13.7325C16.756 16.0133 16.7656 16.7733 13.7152 16.7733C10.6647 16.7733 10.6743 16.0133 10.6743 13.7325Z"
+            stroke="#024F83"
+            stroke-width="1.30322"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
         </svg>
       ) : (
         <svg
-          width="30px"
-          height="30px"
-          viewBox="0 0 24 24"
+          width="18"
+          height="18"
+          viewBox="0 0 18 18"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          stroke=""
         >
-          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-          <g
-            id="SVGRepo_tracerCarrier"
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M1.11719 4.1755C1.11719 1.89468 1.14161 1.13465 4.15804 1.13465C7.17447 1.13465 7.19889 1.89468 7.19889 4.1755C7.19889 6.45633 7.20851 7.21635 4.15804 7.21635C1.10757 7.21635 1.11719 6.45633 1.11719 4.1755Z"
+            stroke="#024F83"
+            stroke-width="1.30322"
             stroke-linecap="round"
             stroke-linejoin="round"
-          ></g>
-          <g id="SVGRepo_iconCarrier">
-            {" "}
-            <path
-              d="M17 10H19C21 10 22 9 22 7V5C22 3 21 2 19 2H17C15 2 14 3 14 5V7C14 9 15 10 17 10Z"
-              stroke="#024F83"
-              stroke-width="1.5"
-              stroke-miterlimit="10"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            ></path>{" "}
-            <path
-              d="M5 22H7C9 22 10 21 10 19V17C10 15 9 14 7 14H5C3 14 2 15 2 17V19C2 21 3 22 5 22Z"
-              stroke="#024F83"
-              stroke-width="1.5"
-              stroke-miterlimit="10"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            ></path>{" "}
-            <path
-              d="M6 10C8.20914 10 10 8.20914 10 6C10 3.79086 8.20914 2 6 2C3.79086 2 2 3.79086 2 6C2 8.20914 3.79086 10 6 10Z"
-              stroke="#024F83"
-              stroke-width="1.5"
-              stroke-miterlimit="10"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            ></path>{" "}
-            <path
-              d="M18 22C20.2091 22 22 20.2091 22 18C22 15.7909 20.2091 14 18 14C15.7909 14 14 15.7909 14 18C14 20.2091 15.7909 22 18 22Z"
-              stroke="#024F83"
-              stroke-width="1.5"
-              stroke-miterlimit="10"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            ></path>{" "}
-          </g>
+          />
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M10.6743 4.1755C10.6743 1.89468 10.6987 1.13465 13.7152 1.13465C16.7316 1.13465 16.756 1.89468 16.756 4.1755C16.756 6.45633 16.7656 7.21635 13.7152 7.21635C10.6647 7.21635 10.6743 6.45633 10.6743 4.1755Z"
+            stroke="#024F83"
+            stroke-width="1.30322"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M1.11719 13.7325C1.11719 11.4516 1.14161 10.6916 4.15804 10.6916C7.17447 10.6916 7.19889 11.4516 7.19889 13.7325C7.19889 16.0133 7.20851 16.7733 4.15804 16.7733C1.10757 16.7733 1.11719 16.0133 1.11719 13.7325Z"
+            stroke="#024F83"
+            stroke-width="1.30322"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M10.6743 13.7325C10.6743 11.4516 10.6987 10.6916 13.7152 10.6916C16.7316 10.6916 16.756 11.4516 16.756 13.7325C16.756 16.0133 16.7656 16.7733 13.7152 16.7733C10.6647 16.7733 10.6743 16.0133 10.6743 13.7325Z"
+            stroke="#024F83"
+            stroke-width="1.30322"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
         </svg>
       )}
       <Flex>{active ? <Text>{label}</Text> : <Text>{label}</Text>}</Flex>

@@ -6,57 +6,81 @@ const AnalyticsIcon = ({ active, label }: IconProp) => {
     <>
       {active ? (
         <svg
-          width="30px"
-          height="30px"
-          viewBox="-1.92 -1.92 27.84 27.84"
+          width="20"
+          height="19"
+          viewBox="0 0 20 19"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          stroke="#024F83"
         >
-          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-          <g
-            id="SVGRepo_tracerCarrier"
+          <path
+            d="M5.91519 8.00494V13.9651"
+            stroke="white"
+            stroke-width="1.30322"
             stroke-linecap="round"
             stroke-linejoin="round"
-            stroke="#fffCCCCCC"
-            stroke-width="0.144"
-          ></g>
-          <g id="SVGRepo_iconCarrier">
-            {" "}
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M3.46447 3.46447C2 4.92893 2 7.28595 2 12C2 16.714 2 19.0711 3.46447 20.5355C4.92893 22 7.28595 22 12 22C16.714 22 19.0711 22 20.5355 20.5355C22 19.0711 22 16.714 22 12C22 7.28595 22 4.92893 20.5355 3.46447C19.0711 2 16.714 2 12 2C7.28595 2 4.92893 2 3.46447 3.46447ZM17 12.25C17.4142 12.25 17.75 12.5858 17.75 13V18C17.75 18.4142 17.4142 18.75 17 18.75C16.5858 18.75 16.25 18.4142 16.25 18V13C16.25 12.5858 16.5858 12.25 17 12.25ZM12.75 6C12.75 5.58579 12.4142 5.25 12 5.25C11.5858 5.25 11.25 5.58579 11.25 6V18C11.25 18.4142 11.5858 18.75 12 18.75C12.4142 18.75 12.75 18.4142 12.75 18V6ZM7 8.25C7.41421 8.25 7.75 8.58579 7.75 9V18C7.75 18.4142 7.41421 18.75 7 18.75C6.58579 18.75 6.25 18.4142 6.25 18V9C6.25 8.58579 6.58579 8.25 7 8.25Z"
-              fill="#fff"
-            ></path>{" "}
-          </g>
+          />
+          <path
+            d="M9.96987 5.15298V13.9651"
+            stroke="white"
+            stroke-width="1.30322"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M13.9579 11.1545V13.9651"
+            stroke="white"
+            stroke-width="1.30322"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M14.0077 0.879181H5.86567C3.02754 0.879181 1.24854 2.88795 1.24854 5.73165V13.403C1.24854 16.2467 3.01926 18.2555 5.86567 18.2555H14.0077C16.8541 18.2555 18.6248 16.2467 18.6248 13.403V5.73165C18.6248 2.88795 16.8541 0.879181 14.0077 0.879181Z"
+            stroke="white"
+            stroke-width="1.30322"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
         </svg>
       ) : (
         <svg
-          width="30px"
-          height="30px"
-          viewBox="-1.92 -1.92 27.84 27.84"
+          width="20"
+          height="19"
+          viewBox="0 0 20 19"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          stroke="#024F83"
         >
-          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-          <g
-            id="SVGRepo_tracerCarrier"
+          <path
+            d="M5.91519 8.00494V13.9651"
+            stroke="white"
+            stroke-width="1.30322"
             stroke-linecap="round"
             stroke-linejoin="round"
-            stroke="#fffCCCCCC"
-            stroke-width="0.144"
-          ></g>
-          <g id="SVGRepo_iconCarrier">
-            {" "}
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M3.46447 3.46447C2 4.92893 2 7.28595 2 12C2 16.714 2 19.0711 3.46447 20.5355C4.92893 22 7.28595 22 12 22C16.714 22 19.0711 22 20.5355 20.5355C22 19.0711 22 16.714 22 12C22 7.28595 22 4.92893 20.5355 3.46447C19.0711 2 16.714 2 12 2C7.28595 2 4.92893 2 3.46447 3.46447ZM17 12.25C17.4142 12.25 17.75 12.5858 17.75 13V18C17.75 18.4142 17.4142 18.75 17 18.75C16.5858 18.75 16.25 18.4142 16.25 18V13C16.25 12.5858 16.5858 12.25 17 12.25ZM12.75 6C12.75 5.58579 12.4142 5.25 12 5.25C11.5858 5.25 11.25 5.58579 11.25 6V18C11.25 18.4142 11.5858 18.75 12 18.75C12.4142 18.75 12.75 18.4142 12.75 18V6ZM7 8.25C7.41421 8.25 7.75 8.58579 7.75 9V18C7.75 18.4142 7.41421 18.75 7 18.75C6.58579 18.75 6.25 18.4142 6.25 18V9C6.25 8.58579 6.58579 8.25 7 8.25Z"
-              fill="#fff"
-            ></path>{" "}
-          </g>
+          />
+          <path
+            d="M9.96987 5.15298V13.9651"
+            stroke="white"
+            stroke-width="1.30322"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            d="M13.9579 11.1545V13.9651"
+            stroke="white"
+            stroke-width="1.30322"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M14.0077 0.879181H5.86567C3.02754 0.879181 1.24854 2.88795 1.24854 5.73165V13.403C1.24854 16.2467 3.01926 18.2555 5.86567 18.2555H14.0077C16.8541 18.2555 18.6248 16.2467 18.6248 13.403V5.73165C18.6248 2.88795 16.8541 0.879181 14.0077 0.879181Z"
+            stroke="white"
+            stroke-width="1.30322"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
         </svg>
       )}
       <Flex>{active ? <Text>{label}</Text> : <Text>{label}</Text>}</Flex>
