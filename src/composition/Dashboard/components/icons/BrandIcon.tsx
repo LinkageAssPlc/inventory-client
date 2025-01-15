@@ -1,7 +1,6 @@
-import { Flex, Text } from "@chakra-ui/react";
 import { IconProp } from "./icon";
 
-const BrandIcon = ({ active, label }: IconProp) => {
+const BrandIcon = ({ active }: IconProp) => {
   return (
     <>
       {active ? (
@@ -16,7 +15,7 @@ const BrandIcon = ({ active, label }: IconProp) => {
             fill-rule="evenodd"
             clip-rule="evenodd"
             d="M9.89591 2.02836L11.4836 5.20019C11.6392 5.51157 11.9395 5.72749 12.2878 5.77745L15.8395 6.28869C16.7171 6.41539 17.0663 7.47891 16.4312 8.08829L13.8629 10.5562C13.6105 10.7988 13.4956 11.1477 13.5553 11.4903L14.1614 14.9744C14.3107 15.8363 13.3933 16.4938 12.609 16.0861L9.43454 14.44C9.12333 14.2785 8.75061 14.2785 8.4385 14.44L5.26404 16.0861C4.4797 16.4938 3.56237 15.8363 3.71255 14.9744L4.31777 11.4903C4.37748 11.1477 4.26258 10.7988 4.01018 10.5562L1.44185 8.08829C0.806773 7.47891 1.15597 6.41539 2.0335 6.28869L5.5852 5.77745C5.93349 5.72749 6.23475 5.51157 6.39035 5.20019L7.97713 2.02836C8.36975 1.24411 9.50329 1.24411 9.89591 2.02836Z"
-            stroke="#024F83"
+            stroke="#fff"
             stroke-width="1.30322"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -41,8 +40,6 @@ const BrandIcon = ({ active, label }: IconProp) => {
           />
         </svg>
       )}
-
-      <Flex>{active ? <Text>{label}</Text> : <Text>{label}</Text>}</Flex>
     </>
   );
 };

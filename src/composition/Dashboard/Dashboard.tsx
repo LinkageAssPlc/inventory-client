@@ -1,5 +1,11 @@
+import LeftPane from "./components/LeftPane";
+
 const Dashboard = () => {
-  return <div>Dashboard</div>;
+  return (
+    <>
+      <LeftPane />
+    </>
+  );
 };
 
 export default Dashboard;
